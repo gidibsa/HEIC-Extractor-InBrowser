@@ -19,7 +19,7 @@ This project was built using
 ## How To Use
 
 ### Upload your HEIC/HEIF files to the web app
-![Project HomePage](https://imgur.com/zHhm0ga)
+![Project HomePage](https://i.imgur.com/zHhm0ga)
 
 ### Wait for the files to be analysed
 ![Image Analysis](https://imgur.com/VlQMuCV)

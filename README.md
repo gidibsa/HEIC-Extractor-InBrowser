@@ -19,13 +19,16 @@ This project was built using
 ## How To Use
 
 ### Upload your HEIC/HEIF files to the web app
-![Project HomePage](https://i.imgur.com/zHhm0ga)
+![Project HomePage](https://github.com/user-attachments/assets/d0aac0a4-0842-4432-bc2a-b0d0d7a73cc1)
+
 
 ### Wait for the files to be analysed
-![Image Analysis](https://imgur.com/VlQMuCV)
+![Image Analysis](https://github.com/user-attachments/assets/758a3374-e401-48fd-90c5-a4ccf4552054)
+
 
 ### Select the frames you need and download them as a GIF or PNGs
-![Image Frames Selecetion And Conversion](https://imgur.com/DiPeWGc)
+![Image Frames Selection And Conversion](https://github.com/user-attachments/assets/bcd5957a-e3e9-4a15-8fca-fb936aeab30c)
+
 
 ## Follow Me 
-<h3><a style="color:#08b5ff" href="https://twitter.com/gidibs_a">Twitter (Formerly known as X)</a></h3>
+<p><a style="color:#08b5ff" href="https://twitter.com/gidibs_a">Twitter (Formerly known as X)</a></p>

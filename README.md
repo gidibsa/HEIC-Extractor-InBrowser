@@ -14,7 +14,7 @@ This project was built using
     - MagicUI
 
 ## Visit The Web App At
-[Live Demo] (www.google.com)
+[Live Demo] (https://heicextractor.vercel.app/)
 
 ## How To Use
 

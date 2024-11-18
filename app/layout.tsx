@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar";
 import { Toaster } from "@/components/ui/toaster";
 import { Raleway } from 'next/font/google';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 //const inter = Inter({ subsets: ["latin"] });
 //<body className={inter.className}>
@@ -30,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning >
       <body className={`${raleway.variable} font-sans`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem themes={["light", "dark"]} disableTransitionOnChange> 
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem themes={["light", "dark"]} disableTransitionOnChange> {/* The defaultTheme was formerly "system" */}
           <Navbar />
 
           <Toaster />
@@ -39,7 +40,7 @@ export default function RootLayout({
             {children}
           </div>
           
-
+          <SpeedInsights/>
         </ThemeProvider>
       </body>
     </html>

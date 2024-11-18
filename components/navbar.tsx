@@ -116,8 +116,8 @@ export default function Navbar({ }): any {
             </Button>
           </Link>
 
-          <div suppressHydrationWarning>
-            <ModeToggle />
+          <div suppressHydrationWarning className="flex items-center justify-center">
+            <ModeToggle/>
           </div>
           
           <Link href="https://github.com/gidibsa/HEIC-Converter-InBrowser.git">

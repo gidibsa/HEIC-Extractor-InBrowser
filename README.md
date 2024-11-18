@@ -1,6 +1,6 @@
 # HEIF/HEIC Extractor and Converter
 
-This is a learning project built in order to try my hands at NextJS. I will build on this knowledge to create other interesting projects.
+This is a learning project built in order to try my hands at NextJS. I will build on this knowledge to create bigger and more interesting projects.
 
 ## Features
 

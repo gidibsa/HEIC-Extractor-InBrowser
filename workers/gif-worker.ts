@@ -80,7 +80,7 @@ self.onmessage = async function(e: MessageEvent<GifWorkerInput>) {
         } as GifWorkerProgress);
 
         // Step 2: Encode the processed frames into a GIF
-        const gif = new GIFEncoder(width, height);
+        const gif = GIFEncoder();
         
 
         // Quantize the first frame and apply the palette to all frames

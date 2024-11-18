@@ -231,7 +231,7 @@ export default function Dropzone() {
             setIsDecoderLoaded(true);   
             toast({title: "Necessary Libraries Loaded", description: "You can now upload your files", duration: 5000});        
           } catch (err) {
-            setError('Failed to initialize libheif: ' + err);
+            setError(() => 'Failed to initialize libheif: ' + err);
             toast({variant: "destructive", title: "Initialization Error", description: error, duration: 5000});                    
           } finally {
             setIsDecoderLoading(false);    
@@ -243,7 +243,7 @@ export default function Dropzone() {
             fetchDecoder();
         }
            
-      }, [is_Decoder_Loaded, retryDecoder]);
+    }, [is_Decoder_Loaded, retryDecoder, toast, error]);
 
       
     if (uploadedFilesCount > 0) {
@@ -325,7 +325,7 @@ export default function Dropzone() {
                                                             //Get the corresponding URL from imageThumbnailURLs
                                                             const thumbnailUrl = imageThumbnailURLs[selectedFile][idx];
                                                             if (!thumbnailUrl) {
-                                                                return <div className="w-full h-full bg-gray-200 animate-pulse" />;
+                                                                return (<div key={`placeholder-${thumbnailId}`} className="w-full h-full bg-gray-200 animate-pulse" />);
                                                             }
 
                                                             return(
@@ -439,8 +439,8 @@ export default function Dropzone() {
             
             
             {({getRootProps, getInputProps }) => (
-                <BackgroundGradient className="rounded-[20px] p-4 sm:p-10 bg-white dark:bg-zinc-900">
-                <div {...getRootProps()} className="bg-background h-72 lg:h-80 xl:h-96 rounded-3xl shadow-sm border-secondary border-2 border-dashed cursor-pointer flex items-center justify-center">
+                <BackgroundGradient className="rounded-[40px] p-4 sm:p-10 bg-white dark:bg-zinc-900 opacity-70">
+                <div {...getRootProps()} className="bg-background h-72 lg:h-80 xl:h-96 rounded-[40px] shadow-sm border-secondary border-2 border-dashed cursor-pointer flex items-center justify-center opacity-70">
                     <input {...getInputProps()} />
                     
                     <div className="space-y-4 text-foreground">

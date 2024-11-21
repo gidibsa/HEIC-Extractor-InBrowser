@@ -67,7 +67,7 @@ export default function Navbar({ }): any {
         <Link href="https://donate.stripe.com/5kA9D0fCig0E2vS3cc">
           <Button variant="default" className="items-center gap-5 rounded-full w-fit md:flex" size="lg">
             <span><Gift /></span>
-            <span>Donate</span>            
+            <span>Donate for Goodluck</span>            
           </Button>
         </Link>
         
@@ -130,7 +130,7 @@ export default function Navbar({ }): any {
           <Link href="https://donate.stripe.com/5kA9D0fCig0E2vS3cc">
             <Button variant="default" className="items-center gap-5 rounded-full md:flex w-full my-2 py-2">
               <span><Gift /></span>
-              <span>Donate</span>            
+              <span>Donate for Goodluck</span>            
             </Button>
           </Link>
 
